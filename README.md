@@ -11,7 +11,7 @@ git commit --amend --author="John Doe <john@doe.org>"
 ## ngx-datatable for Angular Universal
 Follow the official guildline: https://github.com/swimlane/ngx-datatable/blob/master/docs/universal/server-side-rendering.md
 
-Stackoverflow: https://github.com/swimlane/ngx-datatable/blob/master/docs/universal/server-side-rendering.md
+Stackoverflow: https://stackoverflow.com/a/61521133/8742144
 
 My current solution to this problem.
 
