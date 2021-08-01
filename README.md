@@ -82,3 +82,7 @@ export class ServerScrollBarHelper extends ScrollbarHelper {
     }
 }
 ```
+## Remove Ãall comments in VS Code
+Stackoverflow: https://stackoverflow.com/a/66650570/8742144
+
+This will be an easy way. Type CTRL + F and type `//.*` and select the regex sign like the below picture
