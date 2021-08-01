@@ -1,7 +1,7 @@
 # Things
 _If you get one percent better each day for one year, you'll end up thirty-seven times better by the time you're done_
 
-Actually it's just a place where I store things. Because, well hi there 👋 , absent-minded's here!
+Actually it's just a place where I store things. Because, well hi there ðŸ‘‹ , absent-minded's here!
 
 ## Change author of a git commit
 ```bash
@@ -84,7 +84,7 @@ export class ServerScrollBarHelper extends ScrollbarHelper {
     }
 }
 ```
-## Remove �all comments in VS Code
+## Remove all comments in VS Code
 Stackoverflow: https://stackoverflow.com/a/66650570/8742144
 
 This will be an easy way. Type CTRL + F and type `//.*` and select the regex sign like the below picture
