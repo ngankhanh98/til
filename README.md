@@ -12,6 +12,8 @@ Actually it's just a place where I store things. Because, well hi there 👋, ab
 git commit --amend --author="John Doe <john@doe.org>"
 ```
 
+<hr>
+
 `31/07/2021`
 ## ngx-datatable for Angular Universal
 Follow the official guildline: https://github.com/swimlane/ngx-datatable/blob/master/docs/universal/server-side-rendering.md
@@ -90,11 +92,15 @@ export class ServerScrollBarHelper extends ScrollbarHelper {
 }
 ```
 
+<hr>
+
 `01/08/2021`
 ## Remove all comments in VS Code
 Stackoverflow: https://stackoverflow.com/a/66650570/8742144
 
 This will be an easy way. Type CTRL + F and type `//.*` and select the regex sign like the below picture
+
+<hr>
 
 `02/08/2021`
 ## Prevent failing in update file due to cache
@@ -105,7 +111,6 @@ TIL even with <keyboard>Ctrl + F5</keyboard> didn't help clean cache completely.
 For example:
 
 ### Automate versioning with Webpack
-
 ```js
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -123,4 +128,21 @@ module.exports = {
     clean: true,
   },
 };
+```
+
+Result will be:
+```bash
+main.b746e3eb72875af2caa9.js # first build
+main.216e852f60c8829c2289.js # second build
+main.ad717f2466ce655fff5c.js # third build
+```
+
+### Another way to version your file is:
+```js 
+const fileName = `main.[${new Date().getTime()}].js`
+
+// Would be:
+// main.1627922733399.ts
+// main.1627922752324.ts
+
 ```
