@@ -3,13 +3,16 @@
 
 _If you get one percent better each day for one year, you'll end up thirty-seven times better by the time you're done_
 
-Actually it's just a place where I store things. Because, well hi there ðŸ‘‹ , absent-minded's here!
+Actually it's just a place where I store things. Because, well hi there 👋, absent-minded's here!
 
+
+`31/07/2021`
 ## Change author of a git commit
 ```bash
 git commit --amend --author="John Doe <john@doe.org>"
 ```
 
+`31/07/2021`
 ## ngx-datatable for Angular Universal
 Follow the official guildline: https://github.com/swimlane/ngx-datatable/blob/master/docs/universal/server-side-rendering.md
 
@@ -86,7 +89,38 @@ export class ServerScrollBarHelper extends ScrollbarHelper {
     }
 }
 ```
+
+`01/08/2021`
 ## Remove all comments in VS Code
 Stackoverflow: https://stackoverflow.com/a/66650570/8742144
 
 This will be an easy way. Type CTRL + F and type `//.*` and select the regex sign like the below picture
+
+`02/08/2021`
+## Prevent failing in update file due to cache
+Source: https://sebhastian.com/javascript-versioning/
+
+TIL even with <keyboard>Ctrl + F5</keyboard> didn't help clean cache completely. So to prevent browser get the same file `cached from dish`, we should version our file.
+
+For example:
+
+### Automate versioning with Webpack
+
+```js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  entry: "./src/index.js",
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "My Web Application",
+    }),
+  ],
+  output: {
+    filename: "[name].[contenthash].js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+};
+```
