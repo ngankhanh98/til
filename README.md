@@ -146,3 +146,22 @@ const fileName = `main.[${new Date().getTime()}].js`
 // main.1627922752324.ts
 
 ```
+`05/08/2021`
+### Miniscroll
+```css
+
+.miniscroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.miniscroll::-webkit-scrollbar-track,
+.miniscroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.miniscroll::-webkit-scrollbar-thumb,
+.miniscroll::-webkit-scrollbar-thumb {
+  background-color: #b2b2b2;
+  border-radius: 2px;
+```
