@@ -165,3 +165,8 @@ const fileName = `main.[${new Date().getTime()}].js`
   background-color: #b2b2b2;
   border-radius: 2px;
 ```
+
+`09/08/2021`
+### Gotchas Angular Universal
+
+https://github.com/angular/universal/blob/master/docs/gotchas.md
