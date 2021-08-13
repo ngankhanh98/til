@@ -170,3 +170,25 @@ const fileName = `main.[${new Date().getTime()}].js`
 ### Gotchas Angular Universal
 
 https://github.com/angular/universal/blob/master/docs/gotchas.md
+
+`13/08/2021`
+### How do I rename both a Git local and remote branch name?
+
+https://stackoverflow.com/a/61595531/8742144
+
+```bash
+# Rename your local branch.
+# If you are on the branch you want to rename:
+$ git branch -m new-name
+
+# If you stay on a different branch at the current time:
+$ git branch -m old-name new-name
+
+# Delete the old-name remote branch and push the new-name local branch.
+# Stay on the target branch and:
+$ git push origin :old-name new-name
+
+# Reset the upstream branch for the new-name local branch.
+# Switch to the target branch and then:
+$ git push origin -u new-name
+```
