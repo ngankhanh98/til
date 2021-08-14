@@ -192,3 +192,15 @@ $ git push origin :old-name new-name
 # Switch to the target branch and then:
 $ git push origin -u new-name
 ```
+
+`14/08/2021`
+### Video unplay
+
+```html
+<video
+    title="Advertisement"
+    style="background-color: rgb(0, 0, 0); position: absolute; width: 640px; height: 360px;"
+    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    autoplay="true"
+    muted="muted"></video>
+```
