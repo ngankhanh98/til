@@ -204,3 +204,12 @@ $ git push origin -u new-name
     autoplay="true"
     muted="muted"></video>
 ```
+
+`16/08/2021`
+```node
+> Date.now() / 1000
+1629131773.152
+
+> Date.now() / 1000 | 0
+1629131773
+```
