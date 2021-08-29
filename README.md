@@ -235,3 +235,12 @@ $ git push origin -u new-name
   right: 0;
 }
 ```
+
+### Search / clear search
+https://stackoverflow.com/a/15109497/8742144
+
+Use: type='search' and bind `search` event to input to have: **search when enter** and **clear reverting all results** behavior
+```html
+<input type="search" class="form-control text-sm focus:border-gray-700 " placeholder="Tìm kiếm"
+        style="border-radius: 4px;" (search)="changeSearchTerm($event)" >
+```
