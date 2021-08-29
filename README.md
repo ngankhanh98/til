@@ -213,3 +213,25 @@ $ git push origin -u new-name
 > Date.now() / 1000 | 0
 1629131773
 ```
+
+`30/08/2021`
+### Text security css
+
+```html
+<div class="hide-phone-number">123-456-7890</div>
+```
+
+```css
+.hide-phone-number {
+  display: inline-block;
+  font-family: monospace, monospace;
+  position: relative;
+}
+
+.hide-phone-number::after {
+  content: "XX-XXXX";
+  background: white;
+  position: absolute;
+  right: 0;
+}
+```
