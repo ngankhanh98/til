@@ -1,10 +1,6 @@
 # TIL
 (Today I learnt...)
 
-_If you get one percent better each day for one year, you'll end up thirty-seven times better by the time you're done_
-
-Actually it's just a place where I store things. Because, well hi there 👋, absent-minded's here!
-
 
 `31/07/2021`
 ## Change author of a git commit
