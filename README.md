@@ -240,3 +240,12 @@ Use: type='search' and bind `search` event to input to have: **search when enter
 <input type="search" class="form-control text-sm focus:border-gray-700 " placeholder="Tìm kiếm"
         style="border-radius: 4px;" (search)="changeSearchTerm($event)" >
 ```
+
+### Weird dynamic point math
+```nodejs
+> 1.6+1.6+1.61
+4.8100000000000005
+
+> Number(parseFloat(1.6+1.6+1.61).toFixed(10))
+4.81
+```
