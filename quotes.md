@@ -57,3 +57,9 @@ without using the words “if,” “and,” “or,” or “but.” How would w
 SuperDashboard? “The SuperDashboard provides access to the component that last held the
 focus, and it also allows us to track the version and build numbers.” The first “and” is a
 hint that SuperDashboard has too many responsibilities._ **- Clean Code, Robert Cecil Martin**
+
+- _According to Kent, a design is “simple” if it follows these rules:_
+  - _Runs all the tests_
+  - _Contains no duplication_
+  - _Expresses the intent of the programmer_
+  - _Minimizes the number of classes and method_ **- Clean Code, Robert Cecil Martin**
