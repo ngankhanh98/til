@@ -63,3 +63,8 @@ hint that SuperDashboard has too many responsibilities._ **- Clean Code, Robert 
   - _Contains no duplication_
   - _Expresses the intent of the programmer_
   - _Minimizes the number of classes and method_ **- Clean Code, Robert Cecil Martin**
+
+- _All too often we get our code
+working and then move on to the next problem without giving sufficient thought to making
+that code easy for the next person to read. Remember, the most likely next person to read
+the code will be you_  **- Clean Code, Robert Cecil Martin**
