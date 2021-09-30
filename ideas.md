@@ -1,4 +1,10 @@
-### React, Angular, Vue có nhất thiết phải load mọi thứ khi trong lần load đầu tiên?
-📄 **KHÔNG request/response cả HTML page là một trong những lý do front-end framework ra đời thay thế cho just-JavaScript hoặc Multiple page application.**
+### Do React, Vue, Angular,... have to do heavy first load?
 
-Mutliple page apps thường make request và render cả một trang HTML. Điều đó chậm. Front-end framework khắc phục bằng cách
+📄 **Not loading a whole HTML page** is the initializing idea of Front-end Frameworks in order to optimize what Just-JavaScript or Multiple page apps can not do.
+
+Multiple page applications makes requests, returns HTML pages as responses, and then renders them. This sounds not so efficient. Front-end Frameworks improve that by not request HTML pages all the time. Instead, HTML pages are responded in mostly the first load. Data might be fetched from server and be placed in the rendered templates, due to DOM manipulation supported by Front-end Frameworks.
+
+The question is: is it worthy doing a bunch fetch from the first time? isn't it suggest that a good endpoint is the one being requested where it needed and responding just enough properties for neccesary data display?
+
+
+
