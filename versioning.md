@@ -25,3 +25,4 @@ For example, I have made changes on **app.js**, but **app.html** seems to always
 
 ## Version your release application
 
+![image](https://user-images.githubusercontent.com/32817908/137583502-bca2f62e-68c3-451d-85cd-42df41d66b8b.png)
