@@ -1,7 +1,7 @@
 # Versioning
 
 ## .NET Versioning your source file to get rid of browser cache
-I've faced with a problem when the end-users' browser is **enable cached**. That causes my bug did not seem to be fix from end-user POV, even though hotfix has been applied.
+I've faced with a problem when the end-users' browser is **enable cached**. That causes my bug did not seem to be fixed from end-user POV, even though hotfix has been applied.
 
 To trick the browser to always get the newest version of source file, I version the files.
 
