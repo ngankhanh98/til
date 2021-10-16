@@ -5,7 +5,7 @@ I've faced with a problem when the end-users' browser is **enable cached**. That
 
 To trick the browser to always get the newest version of source file, I version the files.
 
-For example, I have made changes on **app.js**, but **app.html** seems to always import the cached **app.js**, ont the newest one.
+For example, I have made changes on **app.js**, but **app.html** seems to always import the cached **app.js**, not the newest one.
 
 
 
