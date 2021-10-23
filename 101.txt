@@ -1,3 +1,4 @@
 https://github.com/whatwg/html
 https://github.com/OWASP/CheatSheetSeries
 https://www.w3.org/Submission/wadl/
+https://restcookbook.com/Basics
