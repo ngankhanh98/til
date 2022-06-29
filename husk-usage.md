@@ -3,10 +3,10 @@
 You can use husky hook when you want to run additional cmd when run git cmd
 
 ## Use case:
-I have a repo `my-app`
-I want to run `npm run build:prod admin` first whenever I run `git commit` (https://githooks.com/)
-if `npm run build:prod admin` success -> continue to `git commit`
-else exit
+I have a repo `my-app`<br>
+I want to run `npm run build:prod admin` first whenever I run `git commit` (https://githooks.com/)<br>
+if `npm run build:prod admin` success -> continue to `git commit`<br>
+else exit<br>
 I want no changes made on my repo or my `package.json` file
 
 ## How
