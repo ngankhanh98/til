@@ -37,6 +37,10 @@ git commit -m"new file"
 
 > npm run build:prod admin
 > ...
+
+# bypass hook
+git commit -m"new file" --no-verify
+> ...
 ```
 
 That's it <3
