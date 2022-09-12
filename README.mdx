@@ -251,3 +251,12 @@ Use: type='search' and bind `search` event to input to have: **search when enter
 ```
 
 ref: https://www.avioconsulting.com/blog/overcoming-javascript-numeric-precision-issues
+
+### Detele remote tag in git
+
+https://stackoverflow.com/a/11593797/8742144
+
+```bash
+$ git push origin :refs/tags/v0.1.0
+$ git tag -d v0.1.0
+```
